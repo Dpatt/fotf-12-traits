@@ -1,0 +1,573 @@
+/* Margin Padding Reset */
+* {
+	padding:0;
+	margin:0;
+}
+
+/* Micro Clear Fix */
+.cf:before,.cf:after {
+	content:" ";
+/* 1 */
+	display:table;
+/* 2 */
+}
+
+.cf:after {
+	clear:both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+	*zoom:1;
+}
+
+/* Global Style */
+body {
+	background-color:#f7f7f3;
+	font-size:15px;
+	line-height:1.5;
+	color:#343434;
+	font-family:sans-serif;
+}
+
+.main-header {
+	background-color:#1d4d59;
+	height:63px;
+	padding-top:10px;
+	clear:both;
+}
+
+.header-logo {
+	background-image:url(../images/fotf-logo.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	height:52px;
+	width:120px;
+	margin:0 auto;
+	text-indent:-99999px;
+	display:block;
+}
+
+#footer{
+
+
+}
+
+.footer-top {
+	background-color:#2e7885;
+	padding:10px;
+	margin-top:10px;
+
+}
+
+.footer-bottom {
+	text-align:center;
+	background-color:#0b6781;
+	color:#fff;
+	font-size:12px;
+	padding:10px;
+}
+
+.footer-bottom a {
+	color:#fff;
+	font-size:12px;
+}
+
+.footer-logo {
+	background-image:url(../images/fotf-marriage-logo.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	height:22px;
+	width:300px;
+	margin:0 auto;
+	text-indent:-99999px;
+	display:block;
+}
+
+/* Result Wrapper*/
+.result-wrapper {
+	padding:10px;
+	max-width:768px;
+	margin:0 auto;
+}
+
+/* Result Summary*/
+.results-summary {
+	background-color:#aacfd7;
+	padding:10px;
+	border-radius:3px;
+}
+
+.results-summary h2 {
+	font-size:18px;
+}
+
+.results-summary p {
+	font-size:11px;
+}
+
+/* Areas of Strength & Gorth Opportunites*/
+.afs-header {
+	border-radius:3px 3px 0 0;
+	background-color:#7ba830;
+	padding:5px 10px 0;
+	margin-top:10px;
+}
+
+.go-header {
+	border-radius:3px 3px 0 0;
+	background-color:#0b6781;
+	padding:5px 10px 0;
+	margin-top:10px;
+}
+
+.afs-header h2,.go-header h2 {
+	color:#fff;
+	font-weight:400;
+	font-size:18px;
+}
+
+.accordion-section {
+	background-color:#ebebe3;
+	margin-bottom:10px;
+	padding:5px 0 1px;
+	border-radius:0 0 3px 3px;
+}
+
+.accordion-header {
+	background-color:#dbdbcd;
+	margin:0 5px 5px;
+	padding:5px 10px;
+	border-radius:3px;
+	-webkit-transition:all .5s;
+/* Safari */
+	transition:all .5s;
+	cursor:pointer;
+}
+
+.accordion-header:hover {
+	background-color:#f5f5e6;
+}
+
+.accordion-header:hover a:first-of-type {
+	background-color:#dbdbcd;
+	border-radius:5px;
+	cursor:pointer;
+}
+
+.accordion-header h2 {
+	font-size:14px;
+	font-weight:400;
+	text-align:left;
+	float:left;
+}
+
+.accordion-header a {
+	float:right;
+	background-color:#f5f5e6;
+	display:block;
+	text-align:right;
+	font-size:12px;
+	border-radius:5px;
+	padding:2px 5px;
+	-webkit-transition:all .5s;
+/* Safari */
+	transition:all .5s;
+}
+
+.accordion-header a:hover {
+	background-color:#dbdbcd;
+	border-radius:5px;
+	cursor:pointer;
+}
+
+.accordion-header img {
+	margin-left:10px;
+}
+
+.accordion-content.default {
+	display:block;
+	-webkit-transition:all .5s;
+/* Safari */
+	transition:all .5s;
+}
+
+.accordion-content {
+	padding:0 10px 10px;
+	display:none;
+}
+
+.accordion-content h3 {
+	font-size:14px;
+	border-bottom:3px solid #dbdbcd;
+}
+
+.accordion-content p {
+	font-size:11px;
+	margin:5px auto;
+}
+
+@media screen and (min-width:610px) and (max-width:1010px) {
+	.results-summary p,.accordion-content p {
+		font-size:12px!important;
+	}
+	
+	.feat-resource {
+		width:50%!important;
+		float:left!important;
+		border:none!important;
+	}
+	
+	.resource-content {
+		width:210px!important;
+	}
+	
+	.resource-content p {
+		font-size:11px!important;
+	}
+}
+
+.feat-resource {
+	border-bottom:3px solid #dbdbcd;
+	padding-bottom:10px;
+}
+
+.feat-article {
+	border:none;
+}
+
+.feat-resource h4 {
+	color:#1d4d59;
+	font-weight:400;
+	font-size:10px;
+	margin:5px 0;
+}
+
+.feat-resource img {
+	width:65px;
+	margin-right:10px;
+	float:left;
+}
+
+.resource-content {
+	float:left;
+	width:195px;
+}
+
+.feat-resource h2 {
+	font-size:12px;
+	color:#1d4d59;
+}
+
+.feat-resource h3 {
+	font-size:10px;
+	border:none;
+	margin:2px 0;
+}
+
+.feat-resource p {
+	margin-bottom:10px;
+	font-size:10px;
+}
+
+a.buyNow-btn {
+	background-color:#7ba830;
+	color:#fff;
+	text-align:center;
+	font-size:13px;
+	font-weight:500;
+	text-decoration:none;
+	border-radius:5px;
+	padding:5px 0;
+	display:block;
+	width:40%;
+	-webkit-transition:all .5s;
+/* Safari */
+	transition:all .5s;
+}
+
+
+a.buyNow-btn:hover{
+	background-color:#8fc238; 
+}
+
+a.readMore-btn {
+	background-color:#0b6781;
+	color:#fff;
+	text-align:center;
+	font-size:13px;
+	font-weight:500;
+	text-decoration:none;
+	border-radius:5px;
+	padding:5px 0;
+	display:block;
+	width:40%;
+	-webkit-transition:all .5s;
+/* Safari */
+	transition:all .5s;
+}
+
+a.readMore-btn:hover{
+	background-color:#3895a5; 
+}
+
+.close-box {
+	border-bottom:3px solid #0b6781;
+	clear:both;
+}
+
+.close-btn {
+	background-color:#0b6781;
+	color:#fff;
+	float:right;
+	text-align:center;
+	font-size:13px;
+	font-weight:500;
+	text-decoration:none;
+	border-radius:5px 5px 0 0;
+	padding:5px 0;
+	display:block;
+	width:100px;
+	height:15px;
+	-webkit-transition:all .5s;
+/* Safari */
+	transition:all .5s;
+}
+
+
+.close-btn:hover{
+	background-color:#3895a5; 
+}
+
+
+.close-btn img {
+	margin-left:5px;
+}
+
+/* Report*/
+.report-header h2 {
+	text-align:left;
+	float:left;
+	font-size:18px;
+}
+
+.report-header a {
+	float:right;
+	text-align:right;
+	display:block;
+	background-color:#0b6781;
+	border-radius:3px;
+	color:#fff;
+	font-size:12px;
+	padding:0 10px 3px;
+	-webkit-transition:all .5s;
+/* Safari */
+	transition:all .5s;
+}
+
+.report-header a:hover {
+	background-color:#7ba830;
+}
+
+.report-header img {
+	margin-left:5px;
+	margin-top:6px;
+	height:12px;
+}
+
+.scale-header {
+	background-color:#cfcfc1;
+	border-radius:3px 3px 0 0;
+	padding:3px 10px 0;
+	margin-top:10px;
+}
+
+.scale-header h3 {
+	font-size:9px;
+	font-weight:400;
+	color:#8b8b81;
+	padding:3px;
+}
+
+.scale-third {
+	width:33.333%;
+	float:left;
+}
+
+.scale-third:first-of-type {
+	text-align:left;
+}
+
+.scale-third:last-of-type {
+	text-align:right;
+}
+
+/* Arrow */
+.arrow {
+	background-image:url(../images/arrow.svg);
+	background-size:contain;
+	background-repeat:no-repeat;
+	text-align:center;
+	background-position:center bottom;
+	height:12px;
+}
+
+.report {
+	background-color:#ebebe3;
+	margin-bottom:10px;
+	padding:5px 10px 1px;
+	border-radius:0 0 3px 3px;
+}
+
+.horizontal-bar {
+	background-color:#dbdbcd;
+	height:5px;
+	padding:6px 0;
+	margin-bottom:10px;
+}
+
+/* Trait Scores */
+#commitment {
+	width:100%;
+}
+
+#spiritual {
+	width:90%;
+}
+
+#communication {
+	width:60%;
+}
+
+#conflict {
+	width:30%;
+}
+
+#time {
+	width:80%;
+}
+
+#cherishing {
+	width:85%;
+}
+
+#nourish {
+	width:65%;
+}
+
+#shared-responsibility {
+	width:63%;
+}
+
+#intimacy {
+	width:70%;
+}
+
+#community {
+	width:35%;
+}
+
+#healthy-individuals {
+	width:45%;
+}
+
+#coping {
+	width:25%;
+}
+
+/* Trait Color*/
+.trait {
+	background-color:#343434;
+	height:5px;
+}
+
+.high-trait {
+	background-color:#7ba830;
+}
+
+.low-trait {
+	background-color:#0b6781;
+}
+
+/* Desktop */
+@media screen and (min-width:1010px) {
+	.result-wrapper {
+		max-width:1024px;
+		padding-right:10px;
+	}
+	
+	#main-report {
+		float:left;
+		width:32%;
+		max-width:320px;
+		margin-right:5px!important;
+	}
+	
+	#report-summary {
+		float:right;
+		width:67%;
+		min-height: 675px;
+	}
+	
+	.accordion-content p {
+		font-size:12px;
+	}
+	
+	#inner-report {
+		max-width:672px;
+		width:100%;
+	}
+	
+	#inner-report.sticky{
+		margin-top:10px;
+		position:fixed;
+		top:0px;
+	}
+	
+	.results-summary p {
+		font-size:14px;
+	}
+	
+	.feat-resource p {
+		margin-bottom:10px;
+		font-size:10px;
+	}
+	
+	.scale-header h3 {
+		font-size:12px;
+	}
+	
+	.arrow {
+		height:17px;
+	}
+	
+	.copy-right {
+		max-width:960px;
+		margin:0 auto;
+	}
+	
+	
+	.footer-bottom p {
+		float:left;
+		font-size:14px;
+		text-align:center;
+		width:33.333%;
+	}
+}
+
+
+
+@media screen and (min-width:1024px) and (min-height:1024px) { 
+	.result-wrapper {
+		margin-bottom: 95px;
+	}
+	#footer{
+		position:fixed;
+		bottom: 0px;
+		width: 100%;
+	}
+
+}
