@@ -560,7 +560,7 @@ a.readMore-btn:hover{
 
 
 
-@media screen and (min-width:1024px) and (min-height:1024px) { 
+@media screen and (min-width:1030px) and (min-height:1024px) { 
 	.result-wrapper {
 		margin-bottom: 200px;
 	}
