@@ -520,6 +520,9 @@ a.readMore-btn:hover{
 	#inner-report {
 		max-width:672px;
 		width:100%;
+			-webkit-transition:all .5s;
+/* Safari */
+	transition:all .5s;
 	}
 	
 	#inner-report.sticky{
