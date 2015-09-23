@@ -13,7 +13,7 @@ $(document).ready(function($) {
 		//Expand or collapse this panel
 		$(this).next().slideToggle('fast');
 		//Hide the other panels
-		$(".accordion-content").not($(this).next()).slidedown('slow');
+		$(".accordion-content").not($(this).next()).slideup('slow');
 	});
 	
 	function sticky_relocate() {
