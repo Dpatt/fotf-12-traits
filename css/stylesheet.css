@@ -510,6 +510,7 @@ a.readMore-btn:hover{
 		float:right;
 		width:67%;
 		min-height: 780px;
+		margin-top: 2px;
 	}
 	
 	.accordion-content p {
