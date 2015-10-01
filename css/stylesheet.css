@@ -575,7 +575,10 @@ a.readMore-btn:hover{
 @media print {
 .results-summary:before {
 display: block;
-content: " Focus on the Family - Thank you for printing our content. Please review the results below and check out more of our marriage resources at http://www.focusonthefamily.com/marriage. Focus on the Family © 2015 Need Help? Call 1-800-A-FAMILY (232-6459)";
+content:"Focus on the Family – We hope this report proves useful in helping your marriage thrive.
+Please review the results below. If you would like more information on additional marriage
+resources visit http://www.focusonthefamily.com/marriage. Focus on the Family © 2015
+Need Help? Call 1-800-A-FAMILY (232-6459)";
 margin-bottom: 10px;
 border: 1px solid #bbb;
 padding: 3px 5px;
