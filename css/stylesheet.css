@@ -425,8 +425,8 @@ a.readMore-btn:hover{
 .horizontal-bar {
 	background-color:#dbdbcd;
 	height:5px;
-	padding:4px 0;
-	margin-bottom:8px;
+	padding:6px 0;
+	margin-bottom:10px;
 }
 
 /* Trait Scores */
@@ -509,8 +509,7 @@ a.readMore-btn:hover{
 	#report-summary {
 		float:right;
 		width:67%;
-		min-height: 620px;
-		margin-top: 2px;
+		min-height: 675px;
 	}
 	
 	.accordion-content p {
@@ -520,9 +519,6 @@ a.readMore-btn:hover{
 	#inner-report {
 		max-width:672px;
 		width:100%;
-			-webkit-transition:all .5s;
-/* Safari */
-	transition:all .5s;
 	}
 	
 	#inner-report.sticky{
@@ -564,9 +560,9 @@ a.readMore-btn:hover{
 
 
 
-@media screen and (min-width:1030px) and (min-height:1024px) { 
+@media screen and (min-width:1024px) and (min-height:1024px) { 
 	.result-wrapper {
-		margin-bottom: 200px;
+		margin-bottom: 95px;
 	}
 	#footer{
 		position:fixed;
@@ -574,4 +570,61 @@ a.readMore-btn:hover{
 		width: 100%;
 	}
 
+}
+
+@media print {
+.results-summary:before {
+display: block;
+content: " Focus on the Family - Thank you for printing our content at www.focusonthefamily.com. Please review your results below and check out more of our marriage resources at http://www.focusonthefamily.com/marriage.";
+margin-bottom: 10px;
+border: 1px solid #bbb;
+padding: 3px 5px;
+font-style: italic;
+}
+
+  .main-header, #footer{
+	  display: none;
+  }
+   
+  img{
+	  max-width: 163px;
+  }
+  
+  .accordion-header a, .report-header a, .scale-header{
+	  display: none;
+  }
+  
+  .accordion-content {
+	display:block;
+}
+
+.close-box{
+	display: none;
+}
+
+.feat-resource{
+	width: 100%;
+}
+
+.resource-content {
+	width: 80%;
+}
+
+a:after {
+content: " (" attr(href) ")";
+font-size: 80%;
+color: blue;
+width: 100%;
+}
+
+.horizontal-bar{
+	display: block;
+}   
+}
+
+@media print and (color) {
+  .report {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+   }
 }
