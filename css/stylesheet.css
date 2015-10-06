@@ -575,7 +575,7 @@ a.readMore-btn:hover{
 @media print {
 .result-wrapper:before {
 display: block;
-content: " Focus on the Family - Thank you for printing our content at www.focusonthefamily.com. Please review your results below and check out more of our marriage resources at http://www.focusonthefamily.com/marriage.";
+content: "Focus on the Family – We hope this report proves useful in helping your marriage thrive. If you would like more information on additional marriage resources, visit www.FocusOnTheFamily.com/Marriage or www.FocusOnTheFamily.com/12TraitsResources Focus on the Family © 2015 Need Additional Help? Call 1-800-A-FAMILY (232-6459)";
 margin-bottom: 10px;
 border: 1px solid #bbb;
 border-radius: 3px;
@@ -586,7 +586,7 @@ background-color: white;
 
 .result-wrapper:after {
 display: block;
-content: " Focus on the Family - Thank you for printing our content at www.focusonthefamily.com. Please review your results below and check out more of our marriage resources at http://www.focusonthefamily.com/marriage.";
+content: "Focus on the Family – We hope this report proves useful in helping your marriage thrive. If you would like more information on additional marriage resources, visit www.FocusOnTheFamily.com/Marriage or www.FocusOnTheFamily.com/12TraitsResources Focus on the Family © 2015 Need Additional Help? Call 1-800-A-FAMILY (232-6459)";
 margin-bottom: 10px;
 border: 1px solid #bbb;
 border-radius: 3px;
