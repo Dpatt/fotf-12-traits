@@ -200,7 +200,7 @@ body {
 	display:none;
 }
 
-.accordion-content h3 {
+.accordion-content h3, .feat-resource h5 {
 	font-size:14px;
 	border-bottom:3px solid #dbdbcd;
 }
